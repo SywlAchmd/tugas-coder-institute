@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #E2CE1A;
+    font-family: 'Poppins';
+}
+
+.box {
+    width: 944px;
+    height: 555px;
+    margin: 100px 248px 100px 248px;
+    border-radius: 16px;
+    box-shadow: 3px 4px 10px;
+}
+
+.leftBox {
+    background-color: #36320A;
+    width: 304px;
+    height: 555px;
+    float: left;
+    border-radius: 16px 0 0 16px;
+    color: #FFFFFF;
+}
+
+.rightBox {
+    background-color: #FEFAA1;
+    width: 640px;
+    height: 555px;
+    float: right;
+    border-radius: 0 16px 16px 0;
+    box-shadow: 1px 2px 5px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    background: transparent;
+    margin-top: 120px;
+    margin-left: 45px;
+}
+
+.logo img {
+    width: 157px;
+    height: 91px;
+    margin-top: 10px;
+    background: transparent;
+}
+
+.square {
+    width: 5px;
+    background-color: #C4C4C4;
+    height: 60px;
+    margin-top: 15px;
+}
+
+.login-message, .login, .submit-button {
+    background-color: transparent;
+}
+
+.login-message p:first-child {
+    font-weight: 700;
+    font-size: 26px;
+    margin-top: 5px;
+    margin-left: 53px;
+    background-color: transparent;
+}
+
+.login-message p:last-child {
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 34.5px;
+    margin-left: 53px;
+    background-color: transparent;
+}
+
+.login input {
+    width: 232px;
+    height: 70px;
+    margin-top: 60px;
+    margin-left: 44px;
+    border-radius: 30px;
+    border: 4px solid #FFFFFF;
+    background: transparent;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 34.5px;
+}
+
+.login p {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25.5px;
+    margin-top: 15px;
+    margin-left: 65px;
+    background: transparent;
+}
+
+form {
+    margin-top: 12px;
+    background: transparent;
+}
+
+.title {
+    margin: 53px 0 12px 0;
+    text-align: center;
+    background-color: transparent;
+}
+
+.title p:first-child {
+    font-weight: 800;
+    font-size: 32px;
+    background-color: transparent;
+}
+
+.title p:last-child {
+    font-size: 19px;
+    font-weight: 500;
+    background-color: transparent;
+}
+
+.input-box {
+    width: 480px;
+    height: 60px;
+    margin-top: 24px;
+    margin-left: 80px;
+    border-radius: 16px;
+    box-shadow: 1px 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+.input-box input {
+    width: 420px;
+    height: 60px;
+    border-radius: 16px;
+    border: none;
+    padding-left: 60px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.input-box input::placeholder {
+    color: #00000099;
+    font-weight: 700;
+    font-size: 23px;
+    position: absolute;
+    top: 25%; 
+    left: 12%;
+}
+
+.input-box i {
+    position: absolute;
+    margin-top: 21px;
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+.submit-button input {
+    width: 232px;
+    height: 70px;
+    margin: 34px 204px 79px 204px;
+    border-radius: 30px;
+    font-size: 23px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #36320A;
+}
