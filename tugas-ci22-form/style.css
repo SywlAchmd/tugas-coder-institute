@@ -1,14 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url('https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css');
+
 * {
     margin: 0;
     padding: 0;
     background-color: #E2CE1A;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
 }
 
 .box {
+    margin-top: 55px;
     width: 944px;
     height: 555px;
-    margin: 100px 248px 100px 248px;
     border-radius: 16px;
     box-shadow: 3px 4px 10px;
 }
